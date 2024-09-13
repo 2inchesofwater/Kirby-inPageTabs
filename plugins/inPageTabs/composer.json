@@ -1,0 +1,12 @@
+{
+	"name": "sodaville/inPageTabs",
+	"description": "A more-flexible set of UI tabs",
+	"license": "proprietary",
+	"version": "0.0.1",
+	"authors": [
+		{
+			"name": "Dan Gilmore",
+			"email": "dan@2inchesofwater.com",
+			"homepage": "https://2inchesofwater.com"
+		}
+	]
