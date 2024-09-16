@@ -20,6 +20,10 @@ Follow the instructions on the Kirby website to create a custom UI field plugin 
 https://getkirby.com/docs/cookbook/panel/first-panel-field
 However, it appears this is an older document which references Vue 2. Some of the steps clash with modern installations of Vite, which looks for Vue 3.
 
+## The current state
+Kirbyup is currently compiling the package successfully.
+Kirby Panel is currently not registering the plugin.
+In the Panel, accessing a Series page, such as "Thor", reveals an error `Field "inpagetabs": The field type "inPageTabs" does not exist`.
 
 ## Node modules
 Kirby CMS 4.3.0
