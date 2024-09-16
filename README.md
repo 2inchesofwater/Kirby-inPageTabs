@@ -22,7 +22,7 @@ However, it appears this is an older document which references Vue 2. Some of th
 
 ## The current state
 Kirbyup is currently compiling the package successfully.
-Kirby Panel is currently not registering the plugin.
+Kirby Panel has registered the plugin.
 In the Panel, accessing a Series page, such as "Thor", reveals an error `Field "inpagetabs": The field type "inPageTabs" does not exist`.
 
 ## Node modules
