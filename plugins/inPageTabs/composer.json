@@ -1,13 +1,13 @@
 {
-	"name": "sodaville/inPageTabs",
-	"description": "A more-flexible set of UI tabs",
-	"license": "proprietary",
-	"version": "0.0.1",
-	"authors": [
-		{
+    "name": "sodaville/kirby4-inpagetabs",
+    "description": "Extended UI tabs for Kirby CMS v4, able to be inserted anywhere in a Blueprint file.",
+    "version": "0.0.1",
+    "license": "MIT",
+    "authors": [
+        {
 			"name": "Dan Gilmore",
 			"email": "dan@2inchesofwater.com",
 			"homepage": "https://2inchesofwater.com"
-		}
-	]
+        }
+    ]
 }
