@@ -1,6 +1,9 @@
 # Kirby-inPageTabs
 Extended UI tabs for Kirby CMS, able to be inserted anywhere in a Blueprint file.
 
+## Installation
+We're intentionally a little skimpy on installations instructions; I'm assuming anyone reading this will already be fairly familiar with Kirby CMS v4 and how to install a custom Panel plugin. 
+
 ## Background
 I'm trying to create a simple workflow interface for a proof-of-concept build. 
 The use case is somebody creating pages for a comic; pages move from a draft state, to a review state, to a published state. 
@@ -23,7 +26,11 @@ However, it appears this is an older document which references Vue 2. Some of th
 ## The current state
 Kirbyup is currently compiling the package successfully.
 Kirby Panel has registered the plugin.
-In the Panel, accessing a Series page, such as "Thor", reveals an error `Invalid field type ("inPageTabsCore")`.
+In Kirby's Panel – accessing a Series page, such as "Thor", reveals an error `Field "workflowtabs": The field type "inpagetabs" does not exist`.
+└── The field "workflowtabs" is created inside blueprints\pages\series.yml
+└── I'm having trouble identifying why the field type "inpagetabs" isn't working
+
+
 
 ## Node modules
 Kirby CMS 4.3.0
